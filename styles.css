@@ -53,6 +53,8 @@
 
   .hero-layout {
     /* Add a responsive layout pattern. */
+    display: grid;
+    gap: var(--space-6);
   }
 
   .guide-grid {
@@ -64,6 +66,13 @@
 
   .feature-shell {
     /* Try this component in different container widths. */
+  }
+
+  /* Stay stacked until the heading and trip card can sit next to each other without getting crushed. */
+  @media (min-width: 40rem) {
+    .hero-layout {
+      grid-template-columns: 2fr 1fr;
+    }
   }
 }
 
