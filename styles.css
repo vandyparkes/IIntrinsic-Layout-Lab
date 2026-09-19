@@ -145,3 +145,11 @@
     scroll-behavior: auto;
   }
 }
+
+/*
+  Viewport checks:
+  375 stacks the hero and puts cards in one column.
+  768 puts the hero in two columns and the cards in two columns.
+  1440 keeps the wrapper at 70rem and puts the cards in four columns.
+  200% zoom (about 640px) stays in two columns with no sideways scroll.
+*/
