@@ -48,6 +48,7 @@
 
   .section {
     /* Add fluid block spacing. */
+    padding-block: clamp(1.5rem, 4vw, 3rem);
   }
 
   .hero-layout {
